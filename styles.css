@@ -105,3 +105,43 @@ div.third div.quote-section em{
     text-align: right;
     font-size: 36px;
 }
+div.fourth {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: #1F2937;
+    font-weight: 300; 
+}
+div.fourth div.container {
+    background-color: #3882F6;
+    width: 900px; 
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+}
+#second-sign-up {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+div.fourth div.container div.left-section {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+div.fourth div.container div.right-section {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
