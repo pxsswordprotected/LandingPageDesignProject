@@ -27,7 +27,7 @@ div.first {
     justify-content: center;
     align-items: center;
     gap: 2em;
-    padding: 90px 0px;
+    padding: 110px 0px;
     color: #F9FAF8;
 }
 div.first div.left h1{
@@ -50,4 +50,35 @@ div.first div.left {
 div.first div.right img {
     width: 500px; 
     height: auto;
+}
+div.second {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 600px;
+    color: #1F2937;
+}
+div.second h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
+div.second div.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+div.second div.card-container img{
+    width: 200px; 
+    height: auto;
+}
+div.second div.card-container figcaption {
+    font-size: 15px;
+}
+div.second div.image-item {
+    text-align: center;
 }
