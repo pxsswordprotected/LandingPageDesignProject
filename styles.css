@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900 &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
 
+}
+body {
+    font-family: 'Roboto', sans-serif;
 }
 div.header {
     display: flex;
@@ -18,4 +20,34 @@ div.header div.right {
     align-items: center;
     gap: 1.5em;
     font-size: 105%;
+}
+div.first {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 90px 0px;
+    color: #F9FAF8;
+}
+div.first div.left h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+div.first div.left {
+    width: 500px;
+}
+#first-sign-up {
+    background-color: #3882F6;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+div.first div.right img {
+    width: 500px; 
+    height: auto;
 }
