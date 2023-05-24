@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -81,4 +80,28 @@ div.second div.card-container figcaption {
 }
 div.second div.image-item {
     text-align: center;
+}
+div.third {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 600px;
+    color: #1F2937;
+    font-weight: 300; 
+}
+div.third div.quote-section {
+    width: 40%;
+}
+div.third div.quote-section p{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.third div.quote-section em{
+    text-align: right;
+    font-size: 36px;
 }
